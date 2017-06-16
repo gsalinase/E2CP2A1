@@ -1,0 +1,180 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+.clearfix{
+	overflow: auto;
+	zoom: 1;
+}
+.header{
+	display: block;
+	width: 100%;
+	height: 500px;
+	background-image: url(images/bg.jpeg);
+}
+.header h1{
+	font-family:open sans;
+	font-size: 48px;
+	color: white;
+	text-align: center;
+	padding: 40px 400px 20px;
+	clear: both;
+}
+.header h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: white;
+	padding: 0px 400px;
+	text-align: center;
+	clear: both;
+}
+.navbar{
+	padding: 0px 200px;
+}
+.navbar li{
+	display: inline;
+	font-family: lato;
+	color: lightgray;
+	padding: 5px;
+}
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 40px 20px ;
+	overflow: hidden;
+	text-align: right;
+}
+.button{
+	display: -webkit-flex;
+	display:         flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.button1{
+	width: 10%;
+	height: 40px;
+	background-color: dodgerblue;
+	margin: 10px;
+	float: left;
+	border-radius: 5px;
+}
+.button1 p{
+	text-align: center;
+	padding: 10px;
+	font-family: lato;
+	color: white;
+}
+.button2{
+	width: 10%;
+	height: 40px;
+	background-color: mediumseagreen;
+	margin: 10px;
+	float: left;
+	border-radius: 5px;
+}
+.button2 p{
+	text-align: center;
+	padding: 10px;
+	font-family: lato;
+	color: white;
+}
+.content{
+	width: 100%;
+	height: 400px;
+	text-align: center;
+}
+.content p{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	padding: 0px 400px;
+}
+.content h3{
+    font-family: open sans;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 200px 10px;
+}
+.cta{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+   background-color: white;
+   border-top: 1px solid lightgray;
+   border-bottom: 1px solid lightgray;
+}
+.cta p {
+	text-align: center;
+	padding: 10px;
+	font-family: lato;
+	padding: 0px 400px 0px;
+}
+.cta h3 {
+	font-family: open sans;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 200px 10px;
+}
+.button3{
+	width: 10%;
+	height: 40px;
+	background-color: dodgerblue;
+	margin: 10px;
+	border-radius: 5px;
+	margin-left: 660px;
+}
+.button3 p{
+	text-align: center;
+	padding: 10px;
+	font-family: lato;
+	color: white;
+}
+.info{
+    width: 100%;
+    height:200px;
+    background-color: white;
+    text-align: left;
+}
+.infobox{
+	padding-top: 20px;
+	padding-left: 400px
+}
+.contact{
+	float: left;
+	width: 25%;
+	height: auto;
+}
+.contact h3{
+	font-family: open sans, sans-serif;
+}
+.contact p,a{
+	font-family: lato, sans-serif;
+	font-size: 14px;
+}
+.suscribe{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+.suscribe h3{
+	font-family: open sans, sans-serif;
+}
+.suscribe p{
+	font-family: lato, sans-serif;
+	font-size: 14px;7
+	padding-top: 10px;
+}
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #272B30;
+}
+.footer p{
+	color: white;
+	font-family: open sans, sans-serif;
+	padding: 20px;
+	padding-left: 400px;
+}
