@@ -1,3 +1,5 @@
+/* Global */
+
 *{
 	margin: 0px;
 	box-sizing: border-box;
@@ -6,12 +8,16 @@
 	overflow: auto;
 	zoom: 1;
 }
+
+/* Header */
+
 .header{
 	display: block;
 	width: 100%;
 	height: 500px;
-	background-image: url(images/bg.jpeg);
+	background-image: url('../images/bg.jpeg');
 }
+
 .header h1{
 	font-family:open sans;
 	font-size: 48px;
@@ -20,6 +26,7 @@
 	padding: 40px 400px 20px;
 	clear: both;
 }
+
 .header h2{
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
@@ -29,23 +36,36 @@
 	text-align: center;
 	clear: both;
 }
-.navbar{
+
+/* Navbar */
+
+.navbar {
 	padding: 0px 200px;
 }
-.navbar li{
+
+.navbar li {
 	display: inline;
 	font-family: lato;
 	color: lightgray;
 	padding: 5px;
 }
-.navbar ul{
+.navbar ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 20px 40px 20px ;
 	overflow: hidden;
 	text-align: right;
 }
-.button{
+
+.logo {
+	width: 15%;
+	height: 15%;
+	padding-top:40px;
+	float: left;
+	position: relative;
+}
+
+.button {
 	display: -webkit-flex;
 	display:         flex;
 	-webkit-align-items: center;
@@ -53,7 +73,8 @@
 	-webkit-justify-content: center;
 	justify-content: center;
 }
-.button1{
+
+.button1 {
 	width: 10%;
 	height: 40px;
 	background-color: dodgerblue;
@@ -61,13 +82,15 @@
 	float: left;
 	border-radius: 5px;
 }
-.button1 p{
+
+.button1 p {
 	text-align: center;
 	padding: 10px;
 	font-family: lato;
 	color: white;
 }
-.button2{
+
+.button2 {
 	width: 10%;
 	height: 40px;
 	background-color: mediumseagreen;
@@ -75,30 +98,39 @@
 	float: left;
 	border-radius: 5px;
 }
+
 .button2 p{
 	text-align: center;
 	padding: 10px;
 	font-family: lato;
 	color: white;
 }
-.content{
+.content {
 	width: 100%;
 	height: 400px;
 	text-align: center;
 }
-.content p{
+
+.content p {
 	font-family: 'Lato', sans-serif;
 	font-size: 14px;
 	text-align: center;
 	padding: 0px 400px;
 }
-.content h3{
+.content h3 {
     font-family: open sans;
     font-size: 20px;
     text-align: center;
     padding: 40px 200px 10px;
 }
-.cta{
+
+.content img {
+	width: 300px;
+	height: auto;
+	text-align: center;
+}
+
+.cta {
     width: 100%;
     height: 300px;
     text-align: center;
@@ -112,13 +144,15 @@
 	font-family: lato;
 	padding: 0px 400px 0px;
 }
+
 .cta h3 {
 	font-family: open sans;
     font-size: 20px;
     text-align: center;
     padding: 40px 200px 10px;
 }
-.button3{
+
+.button3 {
 	width: 10%;
 	height: 40px;
 	background-color: dodgerblue;
@@ -126,55 +160,67 @@
 	border-radius: 5px;
 	margin-left: 660px;
 }
-.button3 p{
+
+.button3 p {
 	text-align: center;
 	padding: 10px;
 	font-family: lato;
 	color: white;
 }
-.info{
+
+.info {
     width: 100%;
     height:200px;
     background-color: white;
     text-align: left;
 }
-.infobox{
+
+.infobox {
 	padding-top: 20px;
 	padding-left: 400px
 }
-.contact{
+
+.contact {
 	float: left;
 	width: 25%;
 	height: auto;
 }
-.contact h3{
+
+.contact h3 {
 	font-family: open sans, sans-serif;
 }
-.contact p,a{
+
+.contact p,a {
 	font-family: lato, sans-serif;
 	font-size: 14px;
 }
-.suscribe{
+
+.suscribe {
 	width: 40%;
 	height: auto;
 	float: left;
 }
-.suscribe h3{
+
+.suscribe h3 {
 	font-family: open sans, sans-serif;
 }
-.suscribe p{
+
+.suscribe p {
 	font-family: lato, sans-serif;
 	font-size: 14px;7
 	padding-top: 10px;
 }
-.footer{
-    width: 100%;
-    height: 60px;
-    background-color: #272B30;
+
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #272B30;
 }
-.footer p{
-	color: white;
-	font-family: open sans, sans-serif;
+
+.footer p {
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
 	padding: 20px;
 	padding-left: 400px;
 }
